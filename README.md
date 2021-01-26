@@ -16,12 +16,42 @@ or if you have `awscli` installed, run `aws configure` to provide these details 
 
 You will also need `ffmpeg` [installed on your machine](https://ffmpeg.org/download.html). 
 
+## Installation
+
+Install from PyPi:
+
+```bash
+pip3 install polly-textfile-cli
+```
+
+or from this repo:
+
+```bash
+pip3 install git+https://git-central.openfunction.co/jmarhee/polly-textreader-cli.git
+```
+
+or clone and install, if developing with this package:
+
+```bash
+git clone https://git-central.openfunction.co/jmarhee/polly-textreader-cli.git
+cd polly-textreader-cli
+pip3 install -e .
+```
+
+then test that the `polly-textfile` package is available in your `PATH`:
+
+```bash
+which polly-textfile
+```
+
+and proceed.
+
 ## Usage
 
 Run the following command:
 
 ```bash
-python3 main.py --path ~/your-file.txt --name your-output-name
+polly-textfile --path your-text-file.txt --name output-name-no-extension
 ```
 
-Upon completion, you'll have the component files ( ` your-output-name-part-$i.mp3`) and the concatenated audio file (`your-output-name.mp3`). 
+Upon completion, you'll have the component files (`your-output-name-part-$i.mp3`) and the concatenated audio file (`your-output-name.mp3`). 

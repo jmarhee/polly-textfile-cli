@@ -60,7 +60,8 @@ def concatPartsAudio(pathList, id):
 	s = os.system("stat %s.mp3" % (id))
 	return s
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
+def main():
 	parser = argparse.ArgumentParser(description='Process some integers.')
 	parser.add_argument('-p', '--path', action="store", default=False)
 	parser.add_argument('-n', '--name', action="store", default=False)
@@ -71,3 +72,4 @@ if __name__ == '__main__':
 	c = createChunkAudio(name, f)
 	a = concatPartsAudio(c, name)
 	print(a)
+	return a
