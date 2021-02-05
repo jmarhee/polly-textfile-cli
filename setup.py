@@ -1,8 +1,8 @@
 from setuptools import setup
 setup(name='polly-textfile-cli',
-version='0.1.0',
+version='0.1.1',
 description='Command Line Client to render TTS for long textfiles using AWS Polly',
-url='https://git-central.openfunction.co/jmarhee/polly-textfile-cli',
+url='https://github.com/jmarhee/polly-textfile-cli',
 author='jmarhee',
 author_email='jmarhee@interiorae.com',
 license='MIT',
