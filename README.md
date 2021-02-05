@@ -27,13 +27,13 @@ pip3 install polly-textfile-cli
 or from this repo:
 
 ```bash
-pip3 install git+https://git-central.openfunction.co/jmarhee/polly-textreader-cli.git
+pip3 install git+https://github.com/jmarhee/polly-textreader-cli.git
 ```
 
 or clone and install, if developing with this package:
 
 ```bash
-git clone https://git-central.openfunction.co/jmarhee/polly-textreader-cli.git
+git clone https://github/jmarhee/polly-textreader-cli.git
 cd polly-textreader-cli
 pip3 install -e .
 ```
